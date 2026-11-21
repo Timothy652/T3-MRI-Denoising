@@ -1,0 +1,152 @@
+[
+  {
+    "subject": "04",
+    "split": "train",
+    "source_file": "subject04_t1w_p4.mnc.gz",
+    "shape": [
+      181,
+      256,
+      256
+    ],
+    "voxel_sizes": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "subject": "05",
+    "split": "train",
+    "source_file": "subject05_t1w_p4.mnc.gz",
+    "shape": [
+      181,
+      256,
+      256
+    ],
+    "voxel_sizes": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "subject": "06",
+    "split": "train",
+    "source_file": "subject06_t1w_p4.mnc.gz",
+    "shape": [
+      181,
+      256,
+      256
+    ],
+    "voxel_sizes": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "subject": "18",
+    "split": "train",
+    "source_file": "subject18_t1w_p4.mnc.gz",
+    "shape": [
+      181,
+      256,
+      256
+    ],
+    "voxel_sizes": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "subject": "20",
+    "split": "train",
+    "source_file": "subject20_t1w_p4.mnc.gz",
+    "shape": [
+      181,
+      256,
+      256
+    ],
+    "voxel_sizes": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "subject": "38",
+    "split": "train",
+    "source_file": "subject38_t1w_p4.mnc.gz",
+    "shape": [
+      181,
+      256,
+      256
+    ],
+    "voxel_sizes": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "subject": "41",
+    "split": "validation",
+    "source_file": "subject41_t1w_p4.mnc.gz",
+    "shape": [
+      181,
+      256,
+      256
+    ],
+    "voxel_sizes": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "subject": "42",
+    "split": "validation",
+    "source_file": "subject42_t1w_p4.mnc.gz",
+    "shape": [
+      181,
+      256,
+      256
+    ],
+    "voxel_sizes": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "subject": "43",
+    "split": "test",
+    "source_file": "subject43_t1w_p4.mnc.gz",
+    "shape": [
+      181,
+      256,
+      256
+    ],
+    "voxel_sizes": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "subject": "44",
+    "split": "test",
+    "source_file": "subject44_t1w_p4.mnc.gz",
+    "shape": [
+      181,
+      256,
+      256
+    ],
+    "voxel_sizes": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
+]

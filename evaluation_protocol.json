@@ -1,0 +1,46 @@
+{
+  "methods": [
+    "NGPS",
+    "masked_pixel_blindspot",
+    "naive_neighbor"
+  ],
+  "additional_control": "NLM",
+  "training_noise_levels": [
+    0.03,
+    0.06,
+    0.1
+  ],
+  "training_strategy": "One model per method, pooling all noise levels",
+  "central_fraction": 0.25,
+  "epochs": 5,
+  "batch_size": 1,
+  "crop_size": 128,
+  "checkpoint_selection": "Final epoch; no clean-reference selection",
+  "primary_metric": "Mean slice PSNR per subject, averaged equally across test subjects and noise levels",
+  "success_target": "NGPS PSNR >= each trained comparator; tolerance 0 dB",
+  "secondary_metrics": [
+    "SSIM (data_range=1)",
+    "HFEN",
+    "inference time"
+  ],
+  "reference_policy": "Noise generation and scoring frozen results only",
+  "test_subjects": [
+    "43",
+    "44"
+  ],
+  "evaluation_slices": "All 181 slices per volume",
+  "psnr": "Per-slice PSNR, data_range=1; mean within each subject",
+  "ssim": "Per-slice SSIM, data_range=1, window size 7; subject mean",
+  "hfen": "RMSE between Laplacian-of-Gaussian filtered images, sigma=1.5 pixels, truncate=4; subject mean; lower is better",
+  "prediction_postprocessing": "Clip all denoiser outputs to [0,1]",
+  "noisy_control": "Original noisy input without clipping",
+  "nlm": {
+    "patch_size": 5,
+    "patch_distance": 6,
+    "h": "0.8 * known noise sigma",
+    "sigma": "Known synthetic noise sigma",
+    "fast_mode": true
+  },
+  "timing": "Denoising plus output clipping; exclude disk I/O and metric calculation; synchronize GPU before and after",
+  "model_selection": "All models frozen at final epoch before test scoring"
+}

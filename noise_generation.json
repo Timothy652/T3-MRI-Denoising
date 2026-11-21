@@ -1,0 +1,272 @@
+[
+  {
+    "subject": "04",
+    "split": "train",
+    "sigma": 0.03,
+    "seed": 42403,
+    "reference_min": 0.013018827885389328,
+    "reference_max": 1350.9296875,
+    "noisy_file": "data/noisy/sigma_0.03/train/subject04.npy"
+  },
+  {
+    "subject": "04",
+    "split": "train",
+    "sigma": 0.06,
+    "seed": 42406,
+    "reference_min": 0.013018827885389328,
+    "reference_max": 1350.9296875,
+    "noisy_file": "data/noisy/sigma_0.06/train/subject04.npy"
+  },
+  {
+    "subject": "04",
+    "split": "train",
+    "sigma": 0.1,
+    "seed": 42410,
+    "reference_min": 0.013018827885389328,
+    "reference_max": 1350.9296875,
+    "noisy_file": "data/noisy/sigma_0.10/train/subject04.npy"
+  },
+  {
+    "subject": "05",
+    "split": "train",
+    "sigma": 0.03,
+    "seed": 42503,
+    "reference_min": 0.01846342347562313,
+    "reference_max": 1383.180908203125,
+    "noisy_file": "data/noisy/sigma_0.03/train/subject05.npy"
+  },
+  {
+    "subject": "05",
+    "split": "train",
+    "sigma": 0.06,
+    "seed": 42506,
+    "reference_min": 0.01846342347562313,
+    "reference_max": 1383.180908203125,
+    "noisy_file": "data/noisy/sigma_0.06/train/subject05.npy"
+  },
+  {
+    "subject": "05",
+    "split": "train",
+    "sigma": 0.1,
+    "seed": 42510,
+    "reference_min": 0.01846342347562313,
+    "reference_max": 1383.180908203125,
+    "noisy_file": "data/noisy/sigma_0.10/train/subject05.npy"
+  },
+  {
+    "subject": "06",
+    "split": "train",
+    "sigma": 0.03,
+    "seed": 42603,
+    "reference_min": 0.012744931504130363,
+    "reference_max": 1327.2919921875,
+    "noisy_file": "data/noisy/sigma_0.03/train/subject06.npy"
+  },
+  {
+    "subject": "06",
+    "split": "train",
+    "sigma": 0.06,
+    "seed": 42606,
+    "reference_min": 0.012744931504130363,
+    "reference_max": 1327.2919921875,
+    "noisy_file": "data/noisy/sigma_0.06/train/subject06.npy"
+  },
+  {
+    "subject": "06",
+    "split": "train",
+    "sigma": 0.1,
+    "seed": 42610,
+    "reference_min": 0.012744931504130363,
+    "reference_max": 1327.2919921875,
+    "noisy_file": "data/noisy/sigma_0.10/train/subject06.npy"
+  },
+  {
+    "subject": "18",
+    "split": "train",
+    "sigma": 0.03,
+    "seed": 43803,
+    "reference_min": 0.014196779578924179,
+    "reference_max": 1342.9447021484375,
+    "noisy_file": "data/noisy/sigma_0.03/train/subject18.npy"
+  },
+  {
+    "subject": "18",
+    "split": "train",
+    "sigma": 0.06,
+    "seed": 43806,
+    "reference_min": 0.014196779578924179,
+    "reference_max": 1342.9447021484375,
+    "noisy_file": "data/noisy/sigma_0.06/train/subject18.npy"
+  },
+  {
+    "subject": "18",
+    "split": "train",
+    "sigma": 0.1,
+    "seed": 43810,
+    "reference_min": 0.014196779578924179,
+    "reference_max": 1342.9447021484375,
+    "noisy_file": "data/noisy/sigma_0.10/train/subject18.npy"
+  },
+  {
+    "subject": "20",
+    "split": "train",
+    "sigma": 0.03,
+    "seed": 44003,
+    "reference_min": 0.01718110963702202,
+    "reference_max": 1329.661865234375,
+    "noisy_file": "data/noisy/sigma_0.03/train/subject20.npy"
+  },
+  {
+    "subject": "20",
+    "split": "train",
+    "sigma": 0.06,
+    "seed": 44006,
+    "reference_min": 0.01718110963702202,
+    "reference_max": 1329.661865234375,
+    "noisy_file": "data/noisy/sigma_0.06/train/subject20.npy"
+  },
+  {
+    "subject": "20",
+    "split": "train",
+    "sigma": 0.1,
+    "seed": 44010,
+    "reference_min": 0.01718110963702202,
+    "reference_max": 1329.661865234375,
+    "noisy_file": "data/noisy/sigma_0.10/train/subject20.npy"
+  },
+  {
+    "subject": "38",
+    "split": "train",
+    "sigma": 0.03,
+    "seed": 45803,
+    "reference_min": 0.007475610356777906,
+    "reference_max": 1332.108642578125,
+    "noisy_file": "data/noisy/sigma_0.03/train/subject38.npy"
+  },
+  {
+    "subject": "38",
+    "split": "train",
+    "sigma": 0.06,
+    "seed": 45806,
+    "reference_min": 0.007475610356777906,
+    "reference_max": 1332.108642578125,
+    "noisy_file": "data/noisy/sigma_0.06/train/subject38.npy"
+  },
+  {
+    "subject": "38",
+    "split": "train",
+    "sigma": 0.1,
+    "seed": 45810,
+    "reference_min": 0.007475610356777906,
+    "reference_max": 1332.108642578125,
+    "noisy_file": "data/noisy/sigma_0.10/train/subject38.npy"
+  },
+  {
+    "subject": "41",
+    "split": "validation",
+    "sigma": 0.03,
+    "seed": 46103,
+    "reference_min": 0.016259023919701576,
+    "reference_max": 1332.1697998046875,
+    "noisy_file": "data/noisy/sigma_0.03/validation/subject41.npy"
+  },
+  {
+    "subject": "41",
+    "split": "validation",
+    "sigma": 0.06,
+    "seed": 46106,
+    "reference_min": 0.016259023919701576,
+    "reference_max": 1332.1697998046875,
+    "noisy_file": "data/noisy/sigma_0.06/validation/subject41.npy"
+  },
+  {
+    "subject": "41",
+    "split": "validation",
+    "sigma": 0.1,
+    "seed": 46110,
+    "reference_min": 0.016259023919701576,
+    "reference_max": 1332.1697998046875,
+    "noisy_file": "data/noisy/sigma_0.10/validation/subject41.npy"
+  },
+  {
+    "subject": "42",
+    "split": "validation",
+    "sigma": 0.03,
+    "seed": 46203,
+    "reference_min": 0.010914159938693047,
+    "reference_max": 1332.0228271484375,
+    "noisy_file": "data/noisy/sigma_0.03/validation/subject42.npy"
+  },
+  {
+    "subject": "42",
+    "split": "validation",
+    "sigma": 0.06,
+    "seed": 46206,
+    "reference_min": 0.010914159938693047,
+    "reference_max": 1332.0228271484375,
+    "noisy_file": "data/noisy/sigma_0.06/validation/subject42.npy"
+  },
+  {
+    "subject": "42",
+    "split": "validation",
+    "sigma": 0.1,
+    "seed": 46210,
+    "reference_min": 0.010914159938693047,
+    "reference_max": 1332.0228271484375,
+    "noisy_file": "data/noisy/sigma_0.10/validation/subject42.npy"
+  },
+  {
+    "subject": "43",
+    "split": "test",
+    "sigma": 0.03,
+    "seed": 46303,
+    "reference_min": 0.009538151323795319,
+    "reference_max": 1332.518310546875,
+    "noisy_file": "data/noisy/sigma_0.03/test/subject43.npy"
+  },
+  {
+    "subject": "43",
+    "split": "test",
+    "sigma": 0.06,
+    "seed": 46306,
+    "reference_min": 0.009538151323795319,
+    "reference_max": 1332.518310546875,
+    "noisy_file": "data/noisy/sigma_0.06/test/subject43.npy"
+  },
+  {
+    "subject": "43",
+    "split": "test",
+    "sigma": 0.1,
+    "seed": 46310,
+    "reference_min": 0.009538151323795319,
+    "reference_max": 1332.518310546875,
+    "noisy_file": "data/noisy/sigma_0.10/test/subject43.npy"
+  },
+  {
+    "subject": "44",
+    "split": "test",
+    "sigma": 0.03,
+    "seed": 46403,
+    "reference_min": 0.014680593274533749,
+    "reference_max": 1343.761962890625,
+    "noisy_file": "data/noisy/sigma_0.03/test/subject44.npy"
+  },
+  {
+    "subject": "44",
+    "split": "test",
+    "sigma": 0.06,
+    "seed": 46406,
+    "reference_min": 0.014680593274533749,
+    "reference_max": 1343.761962890625,
+    "noisy_file": "data/noisy/sigma_0.06/test/subject44.npy"
+  },
+  {
+    "subject": "44",
+    "split": "test",
+    "sigma": 0.1,
+    "seed": 46410,
+    "reference_min": 0.014680593274533749,
+    "reference_max": 1343.761962890625,
+    "noisy_file": "data/noisy/sigma_0.10/test/subject44.npy"
+  }
+]
