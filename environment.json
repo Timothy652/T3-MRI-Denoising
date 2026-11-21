@@ -1,0 +1,8 @@
+{
+  "recorded_at": "2026-11-20T21:04:51.036846+00:00",
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "pytorch": "2.14.1+cu130",
+  "cuda_available": true,
+  "gpu": "Tesla T4",
+  "ngps_commit": "c04331d56ad6c5c8b9ea510f77359b154db57ebe"
+}
